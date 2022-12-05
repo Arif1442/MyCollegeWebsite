@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Engineering University School & College (EUSC)</title>
+</head>
+<body>
+    <!-- Header Portion -->
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="EUSC"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Program Offers</h1>
+    </section>
+    
+    <!----------Blog Section----------->
+    <section class="blog_content">
+        <div class="row">
+            <div class="blog_left">
+                <img src="Images/admission.jpg">
+                <h2>Our Certificate Courses</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero laudantium repellat dicta commodi. Voluptatibus sint mollitia dolores assumenda, possimus similique totam, iste facere incidunt voluptas expedita vel quos amet ullam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit tempore reprehenderit quam magni omnis, deserunt cum fuga architecto et, eos cumque nesciunt <br><br> voluptatum? Vel explicabo, nihil, laudantium maiores dolor cum nesciunt voluptatum dolore magni quae iste ut dolorum officiis distinctio nisi rem ipsa culpa obcaecati architecto consequatur eum in, ex quis? Quas aperiam repudiandae eum atque, nostrum vitae ipsa reiciendis explicabo voluptatibus maxime unde dolorem quasi corrupti nulla in necessitatibus, labore cupiditate quidem, commodi ad! Unde ratione quibusdam eum earum, ipsam reprehenderit blanditiis sint illum veniam alias hic, accusantium ut rerum. <br><br> Obcaecati neque mollitia voluptatibus dicta illum. Laborum, commodi eum!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni deserunt aspernatur, deleniti quas fugit tempore ad eaque explicabo? Omnis veniam quas est optio asperiores, error delectus nisi quae laboriosam, id, odio quidem autem ullam sequi quo! Dignissimos minus, incidunt et sint iste molestiae sit alias, laudantium nam soluta illo enim sequi quod fugit doloribus quas commodi fugiat repudiandae voluptas necessitatibus vel odio autem maiores quos? Magnam exercitationem iusto, officia maxime suscipit officiis fuga obcaecati dicta. Velit, debitis aspernatur! Perferendis quam <br><br> culpa repudiandae velit similique eos accusantium deserunt optio praesentium minima, debitis repellat eius voluptates illum provident autem pariatur ab corrupti?</p>
+                <div class="comment_box">
+                    <h3>Share Your openion</h3>
+                    <form class="comment_form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Comment Here"></textarea>
+                        <button type="submit" class="hero_btn red_btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog_right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Studies</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Humanities</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Operation</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Management Assistance</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Genetic Engineering</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Data Analytics</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam libero odit, magni nam porro nostrum atque<br>magnam minima laudantium soluta labore commodi at eius laboriosam.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Arif Akmal</p>
+    </section>
+
+    <!-- JavaScript Code For Side Menu In Smaller Screen -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

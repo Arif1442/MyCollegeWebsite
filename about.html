@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Engineering University School & College (EUSC)</title>
+</head>
+<body>
+    <!-- Header Portion -->
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="EUSC"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    
+    <!-- About Us Content -->
+    <section class="about_us">
+        <div class="row">
+            <div class="about_col">
+                <h1>The Best In Dhaka City</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati error corrupti neque earum aut placeat, commodi aliquid, amet laboriosam nemo quidem sapiente optio voluptas ut exercitationem velit facilis impedit in! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis explicabo sequi aliquam quaerat tempora voluptas suscipit vero architecto enim! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem commodi ab autem velit sed aspernatur libero deleniti ex nihil tempore.</p>
+                <a href="" class="hero_btn red_btn">Explore Now</a>
+            </div>
+            <div class="about_col">
+                <img src="Images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam libero odit, magni nam porro nostrum atque<br>magnam minima laudantium soluta labore commodi at eius laboriosam.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Arif Akmal</p>
+    </section>
+
+    <!-- JavaScript Code For Side Menu In Smaller Screen -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
